@@ -1,0 +1,24 @@
+
+#counter{
+	border: 1px solid cyan;
+	padding: 12px;
+	font-size: large;
+}
+
+#output {
+	border: 1px dashed magenta;
+	padding: 12px;
+}
+  
+#output.success {
+	border: 2px solid green;
+	color: green;
+	font-size: 24px;
+}
+  
+#output.error {
+	border: 1px dashed red;
+}
+
+
+  

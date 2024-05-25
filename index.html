@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Угадай число</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+  <body>
+    <h1>Игра «Угадай число»</h1>
+    <p>Я загадал число от 1 до 100, попробуй угадать его!</p>
+    <input id="user-input" type="number" placeholder="Введите число" onChange="inputChange(event)"/>
+    <button id="button" onClick="checkValue(); countUp()">Проверить</button>
+    <p id="counter">Количество попыток: 0</p>
+    <p id="output"></p>
+  </body>
+</html>
